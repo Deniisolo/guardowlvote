@@ -2,6 +2,8 @@ import React from "react";
 import image from "./pics/gato.jpeg";
 import logo from "./pics/logo.png";
 import nombre from "./pics/nombre1.png";
+import Lesly from "./pics/Lesly.jpeg";
+import Natali from "./pics/Natali.jpeg";
 
 import { FaLinkedinIn } from "react-icons/fa";
 export function Home() {
@@ -14,35 +16,87 @@ export function Home() {
         </div>
 
         <h3 className="text-white  font-montserrat">
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
-          las industrias desde el año 1500, cuando un impresor (N. del T.
-          persona que se dedica a la imprenta) desconocido usó una galería de
-          textos y los mezcló de tal manera que logró hacer un libro de textos
-          especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como
-          texto de relleno en documentos electrónicos, quedando esencialmente
-          igual al original. Fue popularizado en los 60s con la creación de las
-          hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más
-          recientemente con software de autoedición, como por ejemplo Aldus
-          PageMaker, el cual incluye versiones de Lorem Ipsum.
+          GuardOwl es una app diseñada para ofrecer seguridad y tranquilidad a
+          los viajeros. Utilizando inteligencia artificial, la app proporciona
+          alertas de seguridad en tiempo real, acceso a contactos importantes
+          como embajadas y policías, y permite a los usuarios reportar
+          incidentes fácilmente. GuardOwl actúa como un guardián personal en
+          cada destino, ayudando a los viajeros a mantenerse informados y
+          seguros durante sus aventuras.
         </h3>
         <button
-          type="button" 
+          type="button"
           class="bg-white font-montserrat text-gray-900 font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 border border-gray-300"
         >
           Votar
         </button>
-      </div>  
+      </div>
       <div className="w-1/2 flex flex-col  items-center justify-center gap-20 p-20">
-        <h1 className="text-4xl font-extrabold leading-none tracking-tight text-white ">Team</h1>
+        <h1 className="text-4xl font-extrabold leading-none tracking-tight text-white ">
+          Team
+        </h1>
         <div className="flex flex-wrap gap-10">
           <div class="flex items-center gap-4">
-            <img class="w-14 h-14 rounded-full" src={image} alt="" />
+            <img class="w-14 h-14 rounded-full" src={Lesly} alt="" />
             <div class="font-medium text-white font-montserrat">
               <div>Lesly Samaritano Ayala</div>
               <div class="text-sm text-white-500">Jr Flutter Developer</div>
 
-              <a href="" class=" flex  text-sm text-white-500 gap-2 font-montserrat">
+              <a
+                href="https://www.linkedin.com/in/leslysamaritano/"
+                class=" flex  text-sm text-white-500 gap-2 font-montserrat"
+              >
+                <FaLinkedinIn size={20} />
+                @Leslysamaritano
+              </a>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 font-montserrat">
+            <img class="w-14 h-14 rounded-full" src={Natali} alt="" />
+            <div class="font-medium text-white font-montserrat">
+              <div>Lenina Natali Lujan</div>
+              <div class="text-sm text-white-500 font-montserrat">
+                Data Scientits Specialist
+              </div>
+
+              <a
+                href="https://www.linkedin.com/in/natali-lujan-allende/"
+                class=" flex  text-sm text-white-500 gap-2 font-montserrat"
+              >
+                <FaLinkedinIn size={20} />
+                @natali-lujan-allende
+              </a>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 font-montserrat">
+            <img class="w-14 h-14 rounded-full" src={image} alt="" />
+            <div class="font-medium text-white font-montserrat">
+              <div>Shirley Madeley Sosa </div>
+              <div class="text-sm text-white-500 font-montserrat">
+                UX Designer
+              </div>
+
+              <a
+                href="https://www.linkedin.com/in/shirsosa/"
+                class=" flex  text-sm text-white-500 gap-2 font-montserrat"
+              >
+                <FaLinkedinIn size={20} />
+                @shirsosa
+              </a>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 font-montserrat">
+            <img class="w-14 h-14 rounded-full" src={image} alt="" />
+            <div class="font-medium text-white font-montserrat">
+              <div>Gatito Bonito</div>
+              <div class="text-sm text-white-500 font-montserrat">
+                Backend Developer
+              </div>
+
+              <a
+                href=""
+                class=" flex  text-sm text-white-500 gap-2 font-montserrat"
+              >
                 <FaLinkedinIn size={20} />
                 @gatitobonitoTQM
               </a>
@@ -52,9 +106,14 @@ export function Home() {
             <img class="w-14 h-14 rounded-full" src={image} alt="" />
             <div class="font-medium text-white font-montserrat">
               <div>Gatito Bonito</div>
-              <div class="text-sm text-white-500 font-montserrat">Backend Developer</div>
+              <div class="text-sm text-white-500 font-montserrat">
+                Backend Developer
+              </div>
 
-              <a href="" class=" flex  text-sm text-white-500 gap-2 font-montserrat">
+              <a
+                href=""
+                class=" flex  text-sm text-white-500 gap-2 font-montserrat"
+              >
                 <FaLinkedinIn size={20} />
                 @gatitobonitoTQM
               </a>
@@ -64,45 +123,14 @@ export function Home() {
             <img class="w-14 h-14 rounded-full" src={image} alt="" />
             <div class="font-medium text-white font-montserrat">
               <div>Gatito Bonito</div>
-              <div class="text-sm text-white-500 font-montserrat">Backend Developer</div>
+              <div class="text-sm text-white-500 font-montserrat">
+                Backend Developer
+              </div>
 
-              <a href="" class=" flex  text-sm text-white-500 gap-2 font-montserrat">
-                <FaLinkedinIn size={20} />
-                @gatitobonitoTQM
-              </a>
-            </div>
-          </div>
-          <div class="flex items-center gap-4 font-montserrat">
-            <img class="w-14 h-14 rounded-full" src={image} alt="" />
-            <div class="font-medium text-white font-montserrat">
-              <div>Gatito Bonito</div>
-              <div class="text-sm text-white-500 font-montserrat">Backend Developer</div>
-
-              <a href="" class=" flex  text-sm text-white-500 gap-2 font-montserrat">
-                <FaLinkedinIn size={20} />
-                @gatitobonitoTQM
-              </a>
-            </div>
-          </div>
-          <div class="flex items-center gap-4 font-montserrat">
-            <img class="w-14 h-14 rounded-full" src={image} alt="" />
-            <div class="font-medium text-white font-montserrat">
-              <div>Gatito Bonito</div>
-              <div class="text-sm text-white-500 font-montserrat">Backend Developer</div>
-
-              <a href="" class=" flex  text-sm text-white-500 gap-2 font-montserrat">
-                <FaLinkedinIn size={20} />
-                @gatitobonitoTQM
-              </a>
-            </div>
-          </div>
-          <div class="flex items-center gap-4 font-montserrat">
-            <img class="w-14 h-14 rounded-full" src={image} alt="" />
-            <div class="font-medium text-white font-montserrat">
-              <div>Gatito Bonito</div>
-              <div class="text-sm text-white-500 font-montserrat">Backend Developer</div>
-
-              <a href="" class=" flex  text-sm text-white-500 gap-2 font-montserrat">
+              <a
+                href=""
+                class=" flex  text-sm text-white-500 gap-2 font-montserrat"
+              >
                 <FaLinkedinIn size={20} />
                 @gatitobonitoTQM
               </a>
@@ -135,19 +163,19 @@ export function Home() {
         </div>
       </div>
       <div class="area">
-			<ul class="circles">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</div>
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
     </div>
   );
 }
