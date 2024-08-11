@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/guarowl/static/css/main.a595075e.css",
+    "main.js": "/guarowl/static/js/main.66ea235e.js",
+    "static/js/453.c7372e13.chunk.js": "/guarowl/static/js/453.c7372e13.chunk.js",
+    "static/media/logo.png": "/guarowl/static/media/logo.331eae8bab422674cd53.png",
+    "static/media/Lesly.jpeg": "/guarowl/static/media/Lesly.528a88dcfe2076f361a4.jpeg",
+    "static/media/Natali.jpeg": "/guarowl/static/media/Natali.9ebc0804e175308d0ba7.jpeg",
+    "index.html": "/guarowl/index.html",
+    "main.a595075e.css.map": "/guarowl/static/css/main.a595075e.css.map",
+    "main.66ea235e.js.map": "/guarowl/static/js/main.66ea235e.js.map",
+    "453.c7372e13.chunk.js.map": "/guarowl/static/js/453.c7372e13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a595075e.css",
+    "static/js/main.66ea235e.js"
+  ]
+}
