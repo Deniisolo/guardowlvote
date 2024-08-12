@@ -1,5 +1,4 @@
 import React from "react";
-import image from "./pics/gato.jpeg";
 import logo from "./pics/logo.png";
 import nombre from "./pics/nombre1.png";
 import Lesly from "./pics/Lesly.jpeg";
@@ -10,7 +9,8 @@ import Christopher from "./pics/Christopher.jpeg";
 import Sofia from "./pics/Sofia.jpeg";
 import Marianela from "./pics/Marianela.jpeg";
 import Angello from "./pics/Angello.jpeg";
-import Denis from "./pics/Denis.jpeg"
+import Denis from "./pics/Denis.jpeg";
+import ReactPlayer from "react-player";
 import { FaLinkedinIn } from "react-icons/fa";
 
 export function Home() {
@@ -31,6 +31,18 @@ export function Home() {
           guardian in each each destination, helping travellers stay informed
           and safe during their adventures. safe during their adventures.
         </h3>
+        <div
+          className="player-wrapper w-auto"
+          style={{ maxWidth: "1200px", margin: "0 auto" }}
+        >
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=HxLwfq-ncdw"
+            className="react-player"
+            width="100%"
+            height="100%"
+            controls={true}
+          />
+        </div>
         <button
           type="button"
           class="bg-white font-montserrat text-gray-900 font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 border border-gray-300"
@@ -97,7 +109,7 @@ export function Home() {
             <div class="font-medium text-white font-montserrat">
               <div>Jair Conislla Bocangel</div>
               <div class="text-sm text-white-500 font-montserrat">
-              Sr Software Developer 
+                Sr Software Developer
               </div>
 
               <a
@@ -162,7 +174,7 @@ export function Home() {
             <img class="w-14 h-14 rounded-full" src={Angello} alt="" />
             <div class="font-medium text-white">
               <div>Angello Custodio T</div>
-              <div class="text-sm text-white-500">Developer</div>
+              <div class="text-sm text-white-500">Pricing Insight Specialist</div>
 
               <a
                 href="https://www.linkedin.com/in/angello-custodio/"
