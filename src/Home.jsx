@@ -10,6 +10,7 @@ import Christopher from "./pics/Christopher.jpeg";
 import Sofia from "./pics/Sofia.jpeg";
 import Marianela from "./pics/Marianela.jpeg";
 import Angello from "./pics/Angello.jpeg";
+import Denis from "./pics/Denis.jpeg"
 import { FaLinkedinIn } from "react-icons/fa";
 
 export function Home() {
@@ -146,7 +147,7 @@ export function Home() {
             <img class="w-14 h-14 rounded-full" src={Marianela} alt="" />
             <div class="font-medium text-white">
               <div>Marianela Araoz Z</div>
-              <div class="text-sm text-white-500">UXR Designer</div>
+              <div class="text-sm text-white-500">UX/UI, UXR Designer</div>
 
               <a
                 href="https://www.linkedin.com/in/marianela-araoz-zambrano-6b8715a2/"
@@ -169,6 +170,21 @@ export function Home() {
               >
                 <FaLinkedinIn size={20} />
                 @angello-custodio
+              </a>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <img class="w-14 h-14 rounded-full" src={Denis} alt="" />
+            <div class="font-medium text-white">
+              <div>Denis Alvarez</div>
+              <div class="text-sm text-white-500">Jr FrontEnd Developer</div>
+
+              <a
+                href="https://www.linkedin.com/in/denisolo/"
+                class=" flex  text-sm text-white-500 gap-2"
+              >
+                <FaLinkedinIn size={20} />
+                @Denisolo
               </a>
             </div>
           </div>
