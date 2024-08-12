@@ -4,8 +4,14 @@ import logo from "./pics/logo.png";
 import nombre from "./pics/nombre1.png";
 import Lesly from "./pics/Lesly.jpeg";
 import Natali from "./pics/Natali.jpeg";
-
+import Shirley from "./pics/Shirley.jpeg"
+import Jair from "./pics/Jair.jpeg"
+import Christopher from "./pics/Christopher.jpeg"
+import Sofia from "./pics/Sofia.jpeg"
+import Marianela from "./pics/Marianela.jpeg"
+import Angello from "./pics/Angello.jpeg"
 import { FaLinkedinIn } from "react-icons/fa";
+
 export function Home() {
   return (
     <div className="flex h-screen font-montserrat">
@@ -69,7 +75,7 @@ export function Home() {
             </div>
           </div>
           <div class="flex items-center gap-4 font-montserrat">
-            <img class="w-14 h-14 rounded-full" src={image} alt="" />
+            <img class="w-14 h-14 rounded-full" src={Shirley} alt="" />
             <div class="font-medium text-white font-montserrat">
               <div>Shirley Madeley Sosa </div>
               <div class="text-sm text-white-500 font-montserrat">
@@ -86,77 +92,77 @@ export function Home() {
             </div>
           </div>
           <div class="flex items-center gap-4 font-montserrat">
-            <img class="w-14 h-14 rounded-full" src={image} alt="" />
+            <img class="w-14 h-14 rounded-full" src={Jair} alt="" />
             <div class="font-medium text-white font-montserrat">
-              <div>Gatito Bonito</div>
+              <div>Jair Conislla Bocangel</div>
               <div class="text-sm text-white-500 font-montserrat">
-                Backend Developer
+              Desarrollador Software Sr
               </div>
 
               <a
-                href=""
+                href="https://www.linkedin.com/in/jair-pool-conislla-bocangel-a6931579/"
                 class=" flex  text-sm text-white-500 gap-2 font-montserrat"
               >
                 <FaLinkedinIn size={20} />
-                @gatitobonitoTQM
+                @jair-pool-conislla...
               </a>
             </div>
           </div>
           <div class="flex items-center gap-4 font-montserrat">
-            <img class="w-14 h-14 rounded-full" src={image} alt="" />
+            <img class="w-14 h-14 rounded-full" src={Christopher} alt="" />
             <div class="font-medium text-white font-montserrat">
-              <div>Gatito Bonito</div>
+              <div>Christopher Bobadilla P</div>
               <div class="text-sm text-white-500 font-montserrat">
-                Backend Developer
+              Flutter developer
               </div>
 
               <a
-                href=""
+                href="https://www.linkedin.com/in/christopher-bobadilla-plasencia/"
                 class=" flex  text-sm text-white-500 gap-2 font-montserrat"
               >
                 <FaLinkedinIn size={20} />
-                @gatitobonitoTQM
+                @christopher-bobadilla...
               </a>
             </div>
           </div>
           <div class="flex items-center gap-4 font-montserrat">
-            <img class="w-14 h-14 rounded-full" src={image} alt="" />
+            <img class="w-14 h-14 rounded-full" src={Sofia} alt="" />
             <div class="font-medium text-white font-montserrat">
-              <div>Gatito Bonito</div>
+              <div>Sofia Chuquin</div>
               <div class="text-sm text-white-500 font-montserrat">
-                Backend Developer
+              Sr Software Engineer
               </div>
 
               <a
-                href=""
+                href="https://www.linkedin.com/in/sofiachuquin/"
                 class=" flex  text-sm text-white-500 gap-2 font-montserrat"
               >
                 <FaLinkedinIn size={20} />
-                @gatitobonitoTQM
+                @sofiachuquin
               </a>
             </div>
           </div>
           <div class="flex items-center gap-4">
-            <img class="w-14 h-14 rounded-full" src={image} alt="" />
+            <img class="w-14 h-14 rounded-full" src={Marianela} alt="" />
             <div class="font-medium text-white">
-              <div>Gatito Bonito</div>
-              <div class="text-sm text-white-500">Backend Developer</div>
+              <div>Marianela Araoz Z</div>
+              <div class="text-sm text-white-500">UXR Designer</div>
 
-              <a href="" class=" flex  text-sm text-white-500 gap-2">
+              <a href="https://www.linkedin.com/in/marianela-araoz-zambrano-6b8715a2/" class=" flex  text-sm text-white-500 gap-2">
                 <FaLinkedinIn size={20} />
-                @gatitobonitoTQM
+                @marianela-araoz...
               </a>
             </div>
           </div>
           <div class="flex items-center gap-4">
-            <img class="w-14 h-14 rounded-full" src={image} alt="" />
+            <img class="w-14 h-14 rounded-full" src={Angello} alt="" />
             <div class="font-medium text-white">
-              <div>Gatito Bonito</div>
-              <div class="text-sm text-white-500">Backend Developer</div>
+              <div>Angello Custodio T</div>
+              <div class="text-sm text-white-500">Miawwww</div>
 
-              <a href="" class=" flex  text-sm text-white-500 gap-2">
+              <a href="https://www.linkedin.com/in/angello-custodio/" class=" flex  text-sm text-white-500 gap-2">
                 <FaLinkedinIn size={20} />
-                @gatitobonitoTQM
+                @angello-custodio
               </a>
             </div>
           </div>
