@@ -1,4 +1,3 @@
-
 {
   "homepage": "https://deniisolo.github.io/guarowl/",
   "name": "guarowl",
@@ -13,6 +12,7 @@
     "react-icons": "^5.2.1",
     "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
+    "serve": "^14.2.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
