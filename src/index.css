@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 /*Start Animations*/
+body {
+	background-color: #4e54c8;
+}
 @-webkit-keyframes animatetop {
 	from {
 		top: -300px;
