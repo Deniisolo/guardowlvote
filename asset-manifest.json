@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/guarowl/static/css/main.a595075e.css",
-    "main.js": "/guarowl/static/js/main.66ea235e.js",
+    "main.css": "/guarowl/static/css/main.0e60652f.css",
+    "main.js": "/guarowl/static/js/main.6f3c7508.js",
     "static/js/453.c7372e13.chunk.js": "/guarowl/static/js/453.c7372e13.chunk.js",
+    "static/media/Sofia.jpeg": "/guarowl/static/media/Sofia.b27914c36a92aa9c4556.jpeg",
     "static/media/logo.png": "/guarowl/static/media/logo.331eae8bab422674cd53.png",
+    "static/media/Shirley.jpeg": "/guarowl/static/media/Shirley.a9f11f0fc3516c2ab9dd.jpeg",
+    "static/media/Angello.jpeg": "/guarowl/static/media/Angello.3b4b8a61b11768f9e20a.jpeg",
     "static/media/Lesly.jpeg": "/guarowl/static/media/Lesly.528a88dcfe2076f361a4.jpeg",
     "static/media/Natali.jpeg": "/guarowl/static/media/Natali.9ebc0804e175308d0ba7.jpeg",
+    "static/media/Christopher.jpeg": "/guarowl/static/media/Christopher.f8a0e383e26706953716.jpeg",
+    "static/media/Marianela.jpeg": "/guarowl/static/media/Marianela.1d8ce0be7d661666aa3e.jpeg",
     "index.html": "/guarowl/index.html",
-    "main.a595075e.css.map": "/guarowl/static/css/main.a595075e.css.map",
-    "main.66ea235e.js.map": "/guarowl/static/js/main.66ea235e.js.map",
+    "main.0e60652f.css.map": "/guarowl/static/css/main.0e60652f.css.map",
+    "main.6f3c7508.js.map": "/guarowl/static/js/main.6f3c7508.js.map",
     "453.c7372e13.chunk.js.map": "/guarowl/static/js/453.c7372e13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a595075e.css",
-    "static/js/main.66ea235e.js"
+    "static/css/main.0e60652f.css",
+    "static/js/main.6f3c7508.js"
   ]
 }
