@@ -29,7 +29,7 @@ export function Home() {
           police and allows users to report such as embassies and police, and
           allows users to easily report incidents. GuardOwl acts as a personal
           guardian in each each destination, helping travellers stay informed
-          and safe during their adventures. safe during their adventures.
+          and safe during their adventures. 
         </h3>
         <div
           className="player-wrapper w-auto"
