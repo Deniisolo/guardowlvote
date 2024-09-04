@@ -45,6 +45,9 @@ export function Home() {
         </div>
         <button
           type="button"
+          onClick={()=>{
+            window.location.href = 'https://ai.google.dev/competition/projects/guardowl';
+          }}
           class="bg-white font-montserrat text-gray-900 font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 border border-gray-300"
         >
           Vote
